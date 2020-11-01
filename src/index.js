@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDom from "react-dom"
 import {contentRoutes,routes} from "./routes";
 import './index.css';
-import {BrowserRouter,Route,Redirect,Switch} from "react-router-dom"
+import {HashRouter,Route,Redirect,Switch} from "react-router-dom"
 import App from "./App";
 import * as serviceWorker from './serviceWorker';
 
 ReactDom.render(
-    <BrowserRouter>
+    <HashRouter>
             <Switch>
                 <Route path='/home' render = { routeProps => <App {...routeProps}/>}/>
                 {
@@ -21,7 +21,7 @@ ReactDom.render(
                 <Redirect from="/" to='/home' exact/> {/*默认启动项目重定向跳转至主页面*/}
                 <Redirect to='/404'/>  {/*当path匹配不上是，跳转至404*/}
             </Switch>
-    </BrowserRouter>,
+    </HashRouter>,
   document.getElementById('root') );
 
 // If you want your app to work offline and load faster, you can change
