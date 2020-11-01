@@ -1,0 +1,50 @@
+.home-page{
+    width: 100vw;
+    height: 100vh;
+}
+.home-main-content{
+    display: flex;
+    height: calc(100vh - 5rem);
+}
+
+.home-sider{
+    width: 30vw;
+    /*height: calc(100vh - 5rem);*/
+    background: #08458a;
+}
+/*把ul的点去掉 从x=0位置开始*/
+.ant-menu-root{
+    list-style:none;margin:0;
+    padding-inline-start:0rem;
+}
+
+.home-menu-item{
+    height: 2rem;
+    padding: 1rem;
+    margin: 0.5rem ;
+    font-size: 1.2rem;
+    color: #dadada;
+    background:#063162;
+}
+.home-menu-item-span{
+
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.site-layout-background{
+    width: calc(100vw - 240px - 2rem);
+    height: calc(100vh - 5rem - 2*16px);
+    margin-top: 1rem;
+    margin-left: 1rem;
+    background:#dadada
+}
+.hone-footer{
+    background:#063162;
+    width:100vw;
+    height: 2rem;
+    line-height: 2rem;
+    margin:0;
+    color: #dadada;
+}

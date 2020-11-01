@@ -1,0 +1,36 @@
+.head-tabar{
+    width: 100vw;
+    height: 3rem;
+    background-color: #063162;
+}
+.to-home{
+    margin: 1rem;
+    color: #dadada;
+    font-size: 1.6rem;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px gray;
+}
+.to-home:hover{
+    color: #ffffff;
+    text-shadow: none;
+}
+.home-login{
+    width: 5rem;
+    height: 1.6rem;
+    background-color: #dadada;
+    float: right;
+    margin: 0.7rem 1rem;
+    border-radius: 6%;
+
+}
+.home-login:hover{
+    background-color: white;
+}
+a{
+    color: #063162;
+    font-weight: bolder;
+    text-decoration: none !important;
+}
+a:hover{
+    color: #0b56ad;
+}

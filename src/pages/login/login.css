@@ -1,28 +1,66 @@
 .login-page{
     background-color: #f5f5f5;
     width: 100vw;
-    height: 100vh;
+    height: calc(100vh - 5rem);
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .login-form{
-    width: 100%;
-    max-width: 330px;
-    padding: 15px;
+    width:40rem;
+    max-width: 600px;
+    padding: 1rem;
     margin: auto;
-    background-color: #c1beff;
+    background-color: #E8E8E8;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    border-radius: 5%;
+}
+.login-logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-img{
+    width: 8rem;
+    height: 8rem;
+    margin: 10px;
+    border-radius: 30%;
 }
 
-#normal_login_username
-{
-    margin-bottom: -1px;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
+
+.ant-input, .remember{
+    width: 24rem ;
+    height: 2rem;
+    margin: 1rem ;
 }
+.log-register{
+    width: 24rem;
+    height: 2rem;
+    margin-bottom: 2rem;
+}
+
+.remember-me{
+    margin:1rem ;
+    font-size: 1rem !important;
+}
+
+.forget-password, .to-register{
+    float:right;
+    margin-right: 1rem;
+    font-size: 1rem !important;
+}
+.login-form-button{
+    width: 24rem;
+    height: 2rem;
+    color: #dadada;
+    font-size: 1.2rem;
+    background-color: #063162;
+    border-radius: 5%;
+}
+
+

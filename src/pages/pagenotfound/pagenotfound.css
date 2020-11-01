@@ -1,0 +1,26 @@
+.page-not-found{
+    background-color: #f5f5f5;
+    width: 100vw;
+    height: calc(100vh - 3rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nofound-content{
+    width: 30rem;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.nofound-logo{
+    width:20rem;
+    height: 20rem;
+}
+.describe{
+    width: 20rem;
+    text-align: center;
+    color: #13227a;
+    font-family: 华文新魏;
+}
