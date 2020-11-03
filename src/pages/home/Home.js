@@ -17,6 +17,7 @@ class Home extends Component {
     go = ({item, key, keyPath, domEvent}) => {   //onClik那里虽然看不到传值,但是默认会传过来四个参数,详见官网
         this.props.history.push(key)   //编程式导航
     }
+
     render() {
         return (
             <div className="home-page">
@@ -43,7 +44,7 @@ class Home extends Component {
                                         className="home-menu-item"
                                         onClick={this.go}
                             >
-                                <span className="home-menu-item-span"> content1</span>
+                                <span className="home-menu-item-span">手写数字体识别</span>
                             </Menu.Item>
                             <Menu.Item  key="/home/content2"
                                         icon={<VideoCameraOutlined />}
