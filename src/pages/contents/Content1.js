@@ -72,7 +72,7 @@ class Content1 extends React.Component {
             console.log(JSON.stringify(out_array));
         }
         //传送给服务器
-        axios.post('http://127.0.0.1:8080/post',{
+        axios.post('http://39.106.108.35:8080/post',{
             'img': JSON.stringify(out_array)
         }).then(response=>{
             console.log(response.data);
