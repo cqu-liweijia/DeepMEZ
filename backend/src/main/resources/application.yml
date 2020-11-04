@@ -1,0 +1,15 @@
+# 服务器配置
+server:
+  port: 8080
+
+
+# 数据库配置
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    username: 'lwj'
+    password: '041820'
+    url: jdbc:mysql://39.106.108.35:3306/test
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+
